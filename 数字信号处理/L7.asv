@@ -1,0 +1,9 @@
+f=1;Um=1;nt=2;;
+N=32;T=1/f;
+dt=T/N;
+n=0:nt*N-1;
+tn=n*dt;
+x=Um*sin(2*f*pi*tn);
+subplot(2,1,1),plot(tn,x);
+axis( [0nt*T1.1*min(x)1.1*max(x)] );
+ylabel('x(t)');
